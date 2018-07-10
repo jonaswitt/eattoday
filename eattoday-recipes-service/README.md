@@ -29,4 +29,6 @@ The service currently supports the following API calls:
 
 - `GET /`: returns a list of recipes stored in the database
 
-- `POST /`: loads a recipe from the webpage specified through the `url` POST parameter and stores it in the database
+- `POST /createFromUrl`: loads a recipe from the webpage specified through the `url` POST parameter and stores it in the database
+
+- `POST /createFromImage`: loads a recipe from the image file contained in the request body, attemps to analyze the text in the image, and stores it in the database

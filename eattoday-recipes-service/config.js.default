@@ -9,6 +9,9 @@ const config = {
     db: {
         tableName: "recipes",
     },
+    s3: {
+        bucketName: "eattoday.recipes.images",
+    },
 };
 
 module.exports = config;
