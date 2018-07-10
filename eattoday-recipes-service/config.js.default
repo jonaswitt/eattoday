@@ -1,0 +1,14 @@
+'use strict';
+
+const config = {
+    aws: {
+        region: "eu-central-1",
+        accessKeyId: "",
+        secretAccessKey: "",
+    },
+    db: {
+        tableName: "recipes",
+    },
+};
+
+module.exports = config;
